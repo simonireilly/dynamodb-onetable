@@ -3,6 +3,9 @@
 #
 all: build
 
+configure:
+	npm i
+
 build:
 	npm run build
 
